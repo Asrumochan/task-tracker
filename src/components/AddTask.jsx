@@ -30,7 +30,7 @@ const AddTask = ({onAdd}) => {
                 setDay(e.target.value)
             }}/>
         </div>
-        <div className="form-control form-control-check">
+        <div className=" form-control-check">
             <input type="checkbox" checked={reminder} value={reminder} onChange={(e)=>{
                 setReminder(e.target.checked)
             }}/>
